@@ -2,5 +2,5 @@
 sudo su
 apt update
 apt upgrade -y
-cd /home/ubuntu/sample-nodeapp/
+cd /home/ubuntu/sample-nodeapp
 date > install.txt

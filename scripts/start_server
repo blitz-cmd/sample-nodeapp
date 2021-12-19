@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu/sample-nodeapp/
+cd /home/ubuntu/sample-nodeapp
 date > start.txt
 forever start --minUptime 1000 --spinSleepTime 1000 -c "node app.js" .

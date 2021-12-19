@@ -1,3 +1,4 @@
 #!/bin/bash
-cd /home/deep
-date > install.txt
+sudo su
+apt update
+apt upgrade -y

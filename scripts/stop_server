@@ -1,4 +1,4 @@
 #!/bin/bash
 /home/ubuntu/sample-nodeapp
 date > stop.txt
-sudo forever stop --minUptime 1000 --spinSleepTime 1000 -c "node app.js" .
+# sudo forever stop --minUptime 1000 --spinSleepTime 1000 -c "node app.js" .
